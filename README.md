@@ -15,7 +15,7 @@ The script runs in a continuous loop to create a snapshot of specific data files
 * **Backup Frequency:** Every 5 minutes.
 * **Backup Retention:** Keeps the 12 most recent versions.
 * **Total Backup Window:** Provides a rolling 1-hour (12 versions * 5 minutes/version) backup history.
-* **Retention Method:** First-In, First-Out (FILO). The oldest backup is deleted once the maximum number of versions is exceeded.
+* **Retention Method:** First-In, Last-Out (FILO). The oldest backup is deleted once the maximum number of versions is exceeded.
 
 ## How it Works
 
